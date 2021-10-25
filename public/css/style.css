@@ -1,0 +1,133 @@
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li:first-child {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+nav ul li:last-child {
+    margin-left: 8px;
+    margin-right: 0px;
+}
+
+nav ul li:not(:first-child):not(:last-child) {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a {
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+main {
+    margin-top: 16px;
+}
+
+footer {
+    margin-top: 32px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 350px;
+    margin: auto;
+}
+
+
+
+table caption {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.text {
+    word-spacing: 8.5px;
+    
+}
+
+.text1 {
+    word-spacing: 15px;
+   
+}
+
+.text2 {
+    word-spacing: 5px;
+}
+
+.text3 {
+    word-spacing: 30.5px;
+}
+
+.text4 {
+    word-spacing: 20px;
+}
+
+.text5 {
+    word-spacing: 36.5px;
+}
+
+.text6 {
+    word-spacing: 43px;
+}
+
+
+.center {
+    margin-left: 15em;
+    width: 50em;
+}
+
+.thead1 {
+    background-color:rgb(0, 162, 255);
+}
+
+.thead {
+    background-color: grey;
+}
+
+.form {
+    margin: auto;
+ 
+}
+
+.none {
+    border: 1px solid black;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
